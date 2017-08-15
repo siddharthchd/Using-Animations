@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.siddh.animations.MainActivity">
+
+    <ImageView
+        android:id="@+id/naruto"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        app:srcCompat="@drawable/naruto"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageView
+        android:id="@+id/itachi"
+        android:layout_width="326dp"
+        android:layout_height="457dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="27dp"
+        android:alpha="0.3"
+        android:onClick="fade"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/itachi" />
+
+</android.support.constraint.ConstraintLayout>
